@@ -1,0 +1,16 @@
+# Пример конфигурации. Скопируйте в config.toml и заполните реальными значениями.
+
+[telegram]
+# Токен бота. Получить у @BotFather командой /newbot
+token = "YOUR_TELEGRAM_BOT_TOKEN_HERE"
+
+[admins]
+# Telegram ID администраторов, которые могут одобрять заявки.
+# Узнать свой ID можно у @userinfobot
+ids = [123456789, 987654321]
+
+[server]
+# URL российского сегмента (FastAPI)
+# Для локальной разработки: http://127.0.0.1:8000
+# Для продакшена: https://rf-core.yourcompany.local
+rf_api_url = "http://127.0.0.1:8000"
